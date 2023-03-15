@@ -17,3 +17,10 @@ Tell me why
 I never wanna hear you say
 I want it that way
 "
+
+puts "
+Am I your fire?
+Your one desire
+Yes I know it's too late
+But I want it that way
+"
