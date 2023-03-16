@@ -1,14 +1,20 @@
-puts "You are my fire"
-puts "The one desire"
-puts "Believe when I say"
-puts "I want it that way"
+def print_lyrics(lyrics)
+  lyrics.each_line do |line|
+    puts line
+  end
+end
 
-puts "But we are two worlds apart"
-puts "Can't reach to your heart"
-puts "When you say"
-puts "That I want it that way"
+backstreet_boys_lyrics = <<-LYRICS
+You are my fire
+The one desire
+Believe when I say
+I want it that way
 
-puts "
+But we are two worlds apart
+Can't reach to your heart
+When you say
+That I want it that way
+
 Tell me why
 Ain't nothin' but a toothache
 Tell me why
@@ -16,11 +22,6 @@ Ain't nothin' but a mistake
 Tell me why
 I never wanna hear you say
 I want it that way
-"
+LYRICS
 
-puts "
-Am I your fire?
-Your one desire
-Yes I know it's too late
-But I want it that way
-"
+print_lyrics(backstreet_boys_lyrics)
