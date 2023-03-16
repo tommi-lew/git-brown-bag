@@ -1,6 +1,7 @@
-def print_lyrics(lyrics)
+def print_lyrics_with_delay(lyrics, delay = 0.5)
   lyrics.each_line do |line|
     puts line
+    sleep(delay)
   end
 end
 
@@ -24,4 +25,4 @@ I never wanna hear you say
 I want it that way
 LYRICS
 
-print_lyrics(backstreet_boys_lyrics)
+print_lyrics_with_delay(backstreet_boys_lyrics)
